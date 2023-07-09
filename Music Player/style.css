@@ -1,0 +1,52 @@
+
+body{
+    width: 100vh;
+
+}
+.container{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: auto;
+}
+
+#controls i{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.801);
+    margin: 3px;
+    margin-bottom: 8px;
+}
+
+#progress{
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+#progress-bar{
+    width: 100%;
+}
+
+#music-image{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px ;
+}
+
+#progress .times{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#music-details{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.card{
+    background-image: linear-gradient(to right , rgb(0, 0, 0),  rgba(65, 66, 65, 0.851));
+    border-radius :  16px;
+}
